@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# This hook gets executed by the dockercloud build service
+# $IMAGE_NAME is injected bt dockercloud for us to tag our images with
+
+make
+

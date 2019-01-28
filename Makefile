@@ -34,7 +34,7 @@ ifeq ($(ARCH),x86_64)
     override ARCH=amd64
 endif
 
-CONTAINER_NAME=calico/routereflector
+CONTAINER_NAME=transactcharlie/calico-route-reflector
 GO_BUILD_VER ?= v0.16
 
 
